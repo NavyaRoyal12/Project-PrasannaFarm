@@ -1,0 +1,40 @@
+/* Apply the background image to the whole page */
+body {
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: white; /* Change to a suitable color for text */
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a shadow to the text */
+}

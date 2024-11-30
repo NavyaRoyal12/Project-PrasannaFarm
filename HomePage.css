@@ -1,0 +1,63 @@
+.home-page {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.home-header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.home-header h1 {
+  margin: 0;
+}
+
+.home-content {
+  margin: 20px 0;
+}
+
+.user-actions h2 {
+  margin-bottom: 10px;
+}
+
+.user-actions ul {
+  list-style: none;
+  padding: 0;
+}
+
+.user-actions li {
+  margin: 10px 0;
+}
+
+.user-actions button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-actions button:hover {
+  background-color: #45a049;
+}
+
+.home-footer {
+  margin-top: 20px;
+}
+
+.logout-button {
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: darkred;
+}
